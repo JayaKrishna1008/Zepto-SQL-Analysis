@@ -9,6 +9,18 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 
 ## 📁 Dataset Source
 [Dataset](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv)
+### 🧾 Columns Explained:
+sku_id – Unique identifier for each product entry (synthetic primary key)
+name – Product name as listed on the app
+category – Category such as Fruits, Snacks, Beverages, etc.
+mrp – Maximum Retail Price (originally in paise, converted to ₹)
+discountPercent – Discount applied on MRP
+discountedSellingPrice – Final price after discount (converted to ₹)
+availableQuantity – Units currently in inventoryweightInGms – Weight of the product in grams
+outOfStock – Boolean flag (TRUE/FALSE) indicating stock availability
+quantity – Number of units per package (may include loose produce in grams)
+
+
 
 ## 🛠️ Tools Used
 - PostgreSQL
