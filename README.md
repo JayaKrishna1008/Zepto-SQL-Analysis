@@ -9,29 +9,6 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 
 ## 📁 Dataset Source
 [Dataset](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv)
-### 📌 Column Details
-sku_id: Unique ID for each product (serves as a primary key)
-
-name: Product name (e.g., “Apple Royal Gala”)
-
-category: Product group (e.g., Dairy, Snacks, Beverages)
-
-mrp: Maximum Retail Price in ₹ (converted from paise)
-
-discountPercent: Percentage discount applied
-
-discountedSellingPrice: Final selling price in ₹
-
-availableQuantity: Units available in stock
-
-weightInGms: Weight of the item in grams
-
-outOfStock: Shows if the product is currently out of stock (true/false)
-
-quantity: Number of units per package or quantity (includes weight for loose items)
-
-
-
 
 ## 🛠️ Tools Used
 - PostgreSQL
