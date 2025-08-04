@@ -11,6 +11,7 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 [Dataset](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv)
 ### 🧾 Columns Explained:
 sku_id – Unique identifier for each product entry (synthetic primary key)
+
 name – Product name as listed on the app
 category – Category such as Fruits, Snacks, Beverages, etc.
 mrp – Maximum Retail Price (originally in paise, converted to ₹)
