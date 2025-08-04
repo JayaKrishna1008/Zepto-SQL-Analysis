@@ -12,31 +12,15 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 
 ## 📌 Key Performance Indicators (KPIs)
 The following KPIs were derived using SQL to extract actionable insights from the Zepto inventory dataset:
-
-1Top 10 Best-Value Products
-Products with the highest discount percentages.
-
-2High MRP but Out of Stock Products
-Identified premium products that are not available for sale.
-
-3Estimated Revenue per Category
-Calculated by multiplying discounted price with available quantity.
-
-4Low Discount on High MRP Products
-Products priced above ₹500 but offering less than 10% discount.
-
-5Top 5 Categories by Average Discount
-Highlighted product categories giving the best average discounts.
-
-6Price Per Gram Analysis
-Compared value-for-money by calculating ₹ per gram for items above 100g.
-
-7Weight-Based Product Segmentation
-Categorized products as Low, Medium, or Bulk based on weight.
-
-8Total Inventory Weight by Category
-Useful for logistics and stock planning.
-
+- Found top 10 best-value products based on discount percentage
+- Identified high-MRP products that are currently out of stock
+- Estimated potential revenue for each product category
+- Filtered expensive products (MRP > ₹500) with minimal discount
+- Ranked top 5 categories offering highest average discounts
+- Calculated price per gram to identify value-for-money products
+- Grouped products based on weight into Low, Medium, and Bulk categories
+- Measured total inventory weight per product category
+- 
 ## 🛠️ Tools Used
 - PostgreSQL
 - SQL Queries
