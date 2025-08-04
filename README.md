@@ -20,10 +20,43 @@ The following KPIs were derived using SQL to extract actionable insights from th
 - Calculated price per gram to identify value-for-money products
 - Grouped products based on weight into Low, Medium, and Bulk categories
 - Measured total inventory weight per product category
-- 
-## 🛠️ Tools Used
-- PostgreSQL
-- SQL Queries
-- Data Cleaning & Exploration Techniques
+
+## 🛠️  Project Tasks
+1.Data Exploration
+- Count total records
+- View sample entries
+- Check for missing/null values
+- List unique product categories
+- Identify out-of-stock vs in-stock items
+- Detect duplicate product names
+2. Data Cleaning
+
+Remove products with MRP = 0
+
+Convert values from paise to rupees
+
+Ensure price fields are in valid format
+
+Data Analysis (KPIs & Insights)
+
+Top 10 best-value products by discount %
+
+High MRP products that are out of stock
+
+Estimated revenue by product category
+
+Products with high MRP but low discounts
+
+Top 5 categories with highest average discounts
+
+Price per gram for items above 100g
+
+Categorization of items into Low, Medium, and Bulk
+
+Total inventory weight per category
+
+
+
+
 
   
