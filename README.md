@@ -11,7 +11,7 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 [Dataset](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv)
 
 ## 🛠️  Project Tasks
-1.Data Exploration
+## 1.Data Exploration
 - Count total records
 - View sample entries
 - Check for missing/null values
@@ -19,12 +19,12 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 - Identify out-of-stock vs in-stock items
 - Detect duplicate product names
   
-2. Data Cleaning
+### 2. Data Cleaning
 - Remove products with MRP = 0
 - Convert values from paise to rupees
 - Ensure price fields are in valid format
   
-3.Data Analysis (KPIs & Insights)
+### 3.Data Analysis (KPIs & Insights)
 -Top 10 best-value products by discount %
 - High MRP products that are out of stock
 - Estimated revenue by product category
