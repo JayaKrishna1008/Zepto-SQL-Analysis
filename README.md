@@ -18,10 +18,12 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 - List unique product categories
 - Identify out-of-stock vs in-stock items
 - Detect duplicate product names
+  
 2. Data Cleaning
 - Remove products with MRP = 0
 - Convert values from paise to rupees
 - Ensure price fields are in valid format
+  
 3.Data Analysis (KPIs & Insights)
 -Top 10 best-value products by discount %
 - High MRP products that are out of stock
