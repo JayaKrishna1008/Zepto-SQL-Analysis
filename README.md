@@ -8,7 +8,7 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 - Write business-driven SQL queries to derive insights around pricing, inventory, stock availability, revenue, and more
 
 ## 📁 Dataset Source
-<a herf=https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv></a>
+<a herf=https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv>>DataSet</a>
 
 ## 🛠️ Tools Used
 - PostgreSQL
